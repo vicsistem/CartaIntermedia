@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondojocker">
+    <TextView
+        android:text="Ingresar sala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textView1"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="#ffe10c0c"
+        android:textStyle="bold" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ingresar_Numero_Sala_Buscar"
+        android:textColor="#fffff7f7" />
+    <Button
+        android:text="Unirme a sala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUnirseSala" />
+
+</LinearLayout>
